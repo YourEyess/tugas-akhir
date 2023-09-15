@@ -53,7 +53,7 @@ body {
 }
 
 section {
-    margin-top: 3rem;
+    margin-top: 6rem;
     width: 100vw;
 }
 
@@ -403,7 +403,8 @@ footer ul a:hover {
 
 /* empty */
 .empty-page {
-    height: 70vh;
+    background-color: var(--color-gray-700);
+    height: 50vh;
     display: grid;
     place-content: center;
 }
@@ -414,6 +415,7 @@ footer ul a:hover {
     place-items: center;
     height: 120vh;
 }
+
 
 .form-section-container {
     width: var(--form-width);
